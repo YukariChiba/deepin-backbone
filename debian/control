@@ -7,7 +7,7 @@ Uploaders:
 Build-Depends:
  brotli,
  coffeescript <!nocheck>,
- debhelper-compat (= 12),
+ debhelper-compat (= 13),
  jq,
  libjs-underscore (>= 1.8.3~dfsg) <!nocheck>,
  node-source-map,
@@ -15,7 +15,7 @@ Build-Depends:
  pandoc <!nodoc>,
  pigz,
  uglifyjs (>= 3),
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0
 Homepage: https://backbonejs.org/
 Vcs-Browser: https://salsa.debian.org/js-team/backbone
 Vcs-Git: https://salsa.debian.org/js-team/backbone.git
@@ -55,7 +55,6 @@ Multi-Arch: foreign
 Depends:
  libjs-backbone,
  node-underscore (>= 1.8.3~dfsg) | node-lodash,
- nodejs,
  ${misc:Depends},
 Recommends:
  node-jquery,

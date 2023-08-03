@@ -74,6 +74,12 @@ Comment:
  contains BSD-3-Clause.
 
 Files:
+ Xtypes/*
+Copyright:
+ Microsoft Corporation
+License: Expat
+
+Files:
  debian/*
 Copyright:
   2010-2014,2016-2020, Jonas Smedegaard <dr@jones.dk>
